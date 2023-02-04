@@ -1,0 +1,136 @@
+.home__container{
+    row-gap: 7rem;  
+}
+
+.home__content{
+    grid-template-columns: 116px repeat(1, 1fr);
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+    padding-top: 40px;
+}
+.home__social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+.home__social-icon{
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+.home__social-icon:hover{ 
+    color: var(--title-color-dark);
+}
+.home__title{
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+    max-width: 600px;
+}
+.home__subtitle{
+    position: relative;
+    font-size: var(--h3-font-size);
+    padding-left: 5.4rem;
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-1);
+}
+.home__subtitle::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 1rem;
+}
+.home__description{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-normal);
+    height: 40px;
+    max-width: 700px;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__scroll{
+    margin-left: 9.25rem;
+}
+.wheel{
+    animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(3.75rem);
+    }
+}
+
+.home__scroll-name{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+.home__scroll-arrow{
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+.home__data{
+  margin-left: 80px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+   .home__content{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   }
+   .home__subtitle{
+    padding-left: 3.75rem;
+    margin-top: var(--mb-1);
+   }
+   .home__subtitle::before{
+    width: 42px;
+    top: 0.8rem;
+   }
+   .home__description{
+    max-width: initial;
+    margin-bottom: var(--mb-2-5);
+   }
+   .home__scroll{
+    margin-left: 7.5rem;
+   }
+   .home__data{
+    margin-left: 80px;
+  }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .home__content{
+        grid-template-columns: 1fr;
+        padding-top: 3.5rem;
+       }
+     /* .home__data{
+        grid-column: 1/1;
+     }   */
+     .home__scroll{
+        display: none;
+     }
+     .home__data{
+        margin-left: 50px;
+      }
+  }
+  
+
+  /* For small devices */
+  @media screen and (max-width: 380px) {
+    .home__data{
+        margin-left: 20px;
+      }
+  }

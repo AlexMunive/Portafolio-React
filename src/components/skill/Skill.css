@@ -1,0 +1,170 @@
+/*=============== Skill_software ===============*/
+.carousel__img-html{
+    width: 100px;
+    height: auto;
+}
+.carousel__img-css{
+    width: 70px;
+    height: auto;
+}
+.carousel__img-js{
+    width: auto;
+    height: 100px;
+}
+.carousel__img-react{
+    width: auto;
+    height: 90px;
+}
+.carousel__img-redux{
+    width: auto;
+    height: 100px;
+}
+.carousel__img-nodeJs{
+    width: auto;
+    height: 80px;
+}
+.carousel__img-postgres{
+    width: auto;
+    height: 100px;
+}
+.carousel__img-git{
+    width: auto;
+    height: 90px;
+}
+.carousel__img-jQuery{
+    width: auto;
+    height: 90px;
+}
+.carousel__img-bootstrap{
+    width: auto;
+    height: 90px;
+}
+
+
+.carousel_container{
+    max-width: 800px;
+    height: 200px;
+    z-index: 1;
+    /* background-color: brown; */
+}
+.skills__tipe{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+}
+
+
+.section__subtitle{
+    margin-bottom: 10px;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .carousel_container{
+        width: 600px;
+    }
+}
+  
+  /* For medium devices */
+
+  @media screen and (max-width: 680px) {
+    .carousel_container{
+        max-width: 500px;
+    }
+    .carousel__img-html{
+        width: 60px;
+        height: auto;
+    }
+    .carousel__img-css{
+        width: 30px;
+        height: auto;
+    }
+    .carousel__img-js{
+        width: auto;
+        height: 40px;
+    }
+    .carousel__img-react{
+        width: auto;
+        height: 50px;
+    }
+    .carousel__img-redux{
+        width: auto;
+        height: 60px;
+    }
+    .carousel__img-nodeJs{
+        width: auto;
+        height: 40px;
+    }
+    .carousel__img-postgres{
+        width: auto;
+        height: 60px;
+    }
+    .carousel__img-git{
+        width: auto;
+        height: 50px;
+    }
+    .carousel__img-jQuery{
+        width: auto;
+        height: 50px;
+    }
+    .carousel__img-bootstrap{
+        width: auto;
+        height: 50px;
+    }
+  }
+  @media screen and (max-width: 580px){
+    .carousel_container{
+       width: 400px;
+    }
+  }
+
+  
+  /* For small devices */
+  @media screen and (max-width: 380px) {
+    .carousel_container{
+        max-width: 300px;
+    }
+    .carousel__img-html{
+        width: 50px;
+        height: auto;
+    }
+    .carousel__img-css{
+        width: 20px;
+        height: auto;
+    }
+    .carousel__img-js{
+        width: auto;
+        height: 30px;
+    }
+    .carousel__img-react{
+        width: auto;
+        height: 40px;
+    }
+    .carousel__img-redux{
+        width: auto;
+        height: 50px;
+    }
+    .carousel__img-nodeJs{
+        width: auto;
+        height: 30px;
+    }
+    .carousel__img-postgres{
+        width: auto;
+        height: 50px;
+    }
+    .carousel__img-git{
+        width: auto;
+        height: 40px;
+    }
+    .carousel__img-jQuery{
+        width: auto;
+        height: 40px;
+    }
+    .carousel__img-bootstrap{
+        width: auto;
+        height: 40px;
+    }
+  }
+  
