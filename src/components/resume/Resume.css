@@ -95,6 +95,11 @@
     .qualification__button{
         margin: 0 var(--mb-0-75);
     }
+    .qualification__container{
+        padding: 0;
+        margin-left: 15px;
+        margin-right: 0;
+    }
   }
   
   /* For small devices */
