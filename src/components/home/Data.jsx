@@ -11,7 +11,7 @@ const Data = () => {
         <h3 className='home__subtitle'>Software Developer</h3>
         <h4 className='home__description'>I am a Full-Stack Web programmer with experience in: 
         <span className='home__specialty'>
-        <TypeWriterEffect
+        {/* <TypeWriterEffect
         textStyle={{
             position: 'relative',
             fontSize: '1rem',
@@ -30,7 +30,7 @@ const Data = () => {
           ]}
           multiTextDelay={1000}
           typeSpeed={300}
-          multiTextLoop/>
+          multiTextLoop/> */}
         </span></h4>
         <a href="#contac" className='button button--flex'>Contac <i className='bx bxs-navigation'></i></a>
     </div>

@@ -7,5 +7,9 @@ export default defineConfig({
   server:{
     host:true,
     open:true
+  },
+  mode: "development",
+  build: {
+    minify: false,
   }
 })
