@@ -64,7 +64,16 @@
     border-radius: 0.75rem;
     text-transform: capitalize;
 }
-
+.work__sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.work__button-github{
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    cursor: pointer;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 1130px) {
@@ -110,4 +119,61 @@
         column-gap: 0.25rem;
     }
    
+  }
+
+
+  /* icons */
+
+  .icon-react{
+    width: 30px;
+    height: auto;
+    margin-top: 5px;    
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .icon-css{
+    width: 20px;
+    height: auto;   
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .icon-js{
+    width: 38px;
+    height: auto;   
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .icon-redux{
+    width: 50px;
+    height: auto;  
+    margin-top: 5px; 
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .icon-bootstrap{
+    width: 45px;
+    height: auto;  
+    margin-top: 6px; 
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .icon-react:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
+  }
+  .icon-css:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
+  }
+  .icon-js:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
+  }
+  .icon-redux:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
+  }
+  .icon-bootstrap:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
   }

@@ -45,5 +45,5 @@ const Works = () => {
     </div>
   )
 }
-// console.log(projectsData[0].id)
+console.log(projectsData)
 export default Works

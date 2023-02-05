@@ -41,6 +41,10 @@
 .nav__toggle{
     display: none;
 }
+.bx-menu{
+    margin-right: 25px;
+    margin-top: 5px;
+}
 
 /* Active link */
 
