@@ -1,3 +1,4 @@
+
 .work__filters{
     display: flex;
     justify-content: center;
@@ -18,19 +19,19 @@
     color: var(--container-color);
 }
 .work__container{
-    grid-template-columns: repeat(2, max-content);
-    gap: 3rem;
+    grid-template-columns: repeat(3, max-content);
+    gap: 1.75rem;
     justify-content: center;
 }
 .work__card{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
 .work__img{
-    width: 295px;
+    width: 300px;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
@@ -53,3 +54,60 @@
 .work__button:hover .work__button-icon{
     transform: translateX(0.25rem);
 }
+
+/* active work*/
+.active-work{
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 0.25rem 0.75rem;
+    font-weight: var(--font-medium);
+    border-radius: 0.75rem;
+    text-transform: capitalize;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1130px) {
+    .work__container{
+        gap: 1.25rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .work__Card{
+        padding: 1rem;
+    }
+    .work__img{
+        margin-bottom: 0.75rem;
+    }
+    .work__title{
+        margin-bottom: 0.25rem;
+    }
+   
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+   .work__container{
+    grid-template-columns: max-content;
+   }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .work__container{
+        grid-template-columns: 1fr;
+    }
+    .work__img{
+        width: 100%;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 380px) {
+    .work__item{
+        font-size: var(--small-font-size);
+    }
+    .work__filters{
+        column-gap: 0.25rem;
+    }
+   
+  }

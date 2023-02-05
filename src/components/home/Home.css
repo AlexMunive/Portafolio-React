@@ -83,12 +83,12 @@
 .home__maquina-escribir{
     position: relative;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: var(--font-semi-bold);
     margin-bottom: 3rem;
     margin-left: 4px;
     display: flex;
     flex-wrap: wrap;
-    color: #3F3D56;
+    color: var(--title-color);
 }
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

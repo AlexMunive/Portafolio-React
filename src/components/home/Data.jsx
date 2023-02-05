@@ -17,37 +17,9 @@ const Data = () => {
           strings: ['React.js', 'Node.js'],
           autoStart: true,
           loop: true,
+          delay: 'natural',
+          loop: true
         }}
-        // onInit={(typewriter)=> {
-  
-        //   typewriter
-           
-        //   .typeString("GeeksForGeeks")
-            
-        //   .pauseFor(1000)
-        //   .deleteAll()
-        //   .typeString("Welcomes You")
-        //   .start();
-        //   }}
-        // textStyle={{
-        //     position: 'relative',
-        //     fontSize: '1rem',
-        //     fontWeight: '500',
-        //     marginBottom: '3rem',
-        //     marginLeft: '4px',
-        //     display: 'flex',
-        //     flexWrap: 'wrap',
-        //   }}
-        //   startDelay={100}
-        //   cursorColor="#3F3D56"
-        //   multiText={[
-        //     'React.js',
-        //     'Node.js',
-          
-        //   ]}
-        //   multiTextDelay={1000}
-        //   typeSpeed={300}
-        //   multiTextLoop
           />
         </span></h4>
         <a href="#contac" className='button button--flex'>Contac <i className='bx bxs-navigation'></i></a>
