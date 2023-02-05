@@ -1,5 +1,4 @@
 import React from 'react'
-import './Data.css'
 import TypeWriterEffect from 'typewriter-effect';
 
 

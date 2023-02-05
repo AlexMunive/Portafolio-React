@@ -83,7 +83,7 @@
 .home__maquina-escribir{
     position: relative;
     font-size: 1rem;
-    font-weight: var(--font-semi-bold);
+    font-weight: var( --font-semi-bold);
     margin-bottom: 3rem;
     margin-left: 4px;
     display: flex;
@@ -135,7 +135,11 @@
         margin-left: 50px;
       }
   }
-  
+  @media screen and (max-width: 576px) {
+   .home__data{
+    margin-left: 10px;
+   }
+  }
 
   /* For small devices */
   @media screen and (max-width: 380px) {
