@@ -36,8 +36,8 @@ const Header = () => {
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href="#porfolio" className="nav__link">
-                            <i className="bx bx-image-alt nav__icon"></i> Porfolio
+                        <a href="#portfolio" className="nav__link">
+                            <i className="bx bx-image-alt nav__icon"></i> Portfolio
                         </a>
                     </li>
                     <li className="nav__item">
