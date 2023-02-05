@@ -9,6 +9,7 @@ import technologyCss from '../../assets/css.png'
 import technologyJs from '../../assets/js.png'
 import technologyRedux from '../../assets/redux.png'
 import technologyBootstrap from '../../assets/Bootstrap.webp'
+import technologyHtml from '../../assets/html.png'
 
 export const projectsData = [
   {
@@ -81,8 +82,9 @@ export const projectsData = [
     image: Work6,
     title: "Online store computer",
     technology: [     
+      <img key={technologyHtml} className='icon-html' src={technologyHtml} alt="html.png" />, 
       <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
-      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="js.png" />,
+      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="Bootstrap.png" />,
       <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,       
     ],
     href: 'https://animated-bombolone-bd2fc7.netlify.app/',

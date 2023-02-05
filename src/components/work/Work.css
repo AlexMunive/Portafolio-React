@@ -151,9 +151,16 @@
     margin-bottom: 5px;
   }
   .icon-bootstrap{
-    width: 45px;
+    width: 40px;
     height: auto;  
     margin-top: 6px; 
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .icon-html{
+    width: 28px;
+    height: auto;  
+    margin-top: 2px;
     margin-right: 5px;
     margin-bottom: 5px;
   }
@@ -174,6 +181,10 @@
     transform: translateX( 0.25rem)
   }
   .icon-bootstrap:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
+  }
+  .icon-html:hover{
     transition: 0.4s;
     transform: translateX( 0.25rem)
   }
