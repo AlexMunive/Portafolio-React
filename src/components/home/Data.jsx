@@ -2,6 +2,7 @@ import React from 'react'
 import './Data.css'
 import TypeWriterEffect from 'typewriter-effect';
 
+
 const Data = () => {
 
     
@@ -10,19 +11,24 @@ const Data = () => {
         <h1 className="home__title">Hello, my name is Alexander Munive</h1>
         <h3 className='home__subtitle'>Software Developer</h3>
         <h4 className='home__description'>I am a Full-Stack Web programmer with experience in: 
-        <span className='home__specialty'>
+        <span className='home__specialty home__maquina-escribir'>
         <TypeWriterEffect
-        onInit={(typewriter)=> {
+        options={{
+          strings: ['React.js', 'Node.js'],
+          autoStart: true,
+          loop: true,
+        }}
+        // onInit={(typewriter)=> {
   
-          typewriter
+        //   typewriter
            
-          .typeString("GeeksForGeeks")
+        //   .typeString("GeeksForGeeks")
             
-          .pauseFor(1000)
-          .deleteAll()
-          .typeString("Welcomes You")
-          .start();
-          }}
+        //   .pauseFor(1000)
+        //   .deleteAll()
+        //   .typeString("Welcomes You")
+        //   .start();
+        //   }}
         // textStyle={{
         //     position: 'relative',
         //     fontSize: '1rem',

@@ -8,8 +8,8 @@ export default defineConfig({
     host:true,
     open:true
   },
-  mode: "development",
-  build: {
-    minify: false,
-  }
+  // mode: "development",
+  // build: {
+  //   minify: false,
+  // }
 })

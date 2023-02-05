@@ -80,7 +80,16 @@
 .home__data{
   margin-left: 80px;
 }
-
+.home__maquina-escribir{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    margin-left: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #3F3D56;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
