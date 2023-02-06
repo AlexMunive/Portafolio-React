@@ -4,6 +4,7 @@ import Work3 from '../../assets/work3.png'
 import Work4 from '../../assets/work4.png'
 import Work5 from '../../assets/work5.png'
 import Work6 from '../../assets/work6.png'
+import Work7 from '../../assets/work7.png'
 import technologyReact from '../../assets/react.png'
 import technologyCss from '../../assets/css.png'
 import technologyJs from '../../assets/js.png'
@@ -90,6 +91,20 @@ export const projectsData = [
     href: 'https://animated-bombolone-bd2fc7.netlify.app/',
     github: 'https://github.com/AlexMunive/E-commerce1',
     category: "e-commerce",
+  },
+  {
+    id: 7,
+    image: Work7,
+    title: "Portfolio website",
+    technology: [     
+      <img key={technologyHtml} className='icon-html' src={technologyHtml} alt="html.png" />, 
+      <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
+      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="Bootstrap.png" />,
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,       
+    ],
+    href: 'https://porafolio-web-alexander.netlify.app/',
+    github: 'https://github.com/AlexMunive/Portafolio-Alexander-Oficial',
+    category: "web",
   },
 ];
 

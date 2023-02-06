@@ -21,7 +21,7 @@ const Data = () => {
         }}
           />
         </span></h4>
-        <a href="#contac" className='button button--flex'>Contac <i className='bx bxs-navigation'></i></a>
+        <a href="#contac" className='button button--flex'>Contact me<i className='bx bxs-navigation'></i></a>
     </div>
   )
 }
