@@ -93,7 +93,10 @@
 .bxs-navigation{
     padding-left: 5px;
 }
-
+.contact__button-result{
+    font-size: var(--smaller-font-size);
+    margin-top: 5px;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

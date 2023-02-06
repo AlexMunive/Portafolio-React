@@ -10,9 +10,7 @@ const Skill = () => {
             <span className='section__subtitle'>My technical level</span>
             <div className='skills_container container grid'>
                 <h3 className='skills__tipe'>Skill software</h3>
-                <Skill_software />
-                
-               
+                <Skill_software />                            
             </div>
         </section>
     )

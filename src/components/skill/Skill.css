@@ -119,7 +119,13 @@
        width: 400px;
     }
   }
-
+  @media screen and (max-width: 480px){
+   .skills__tipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  }
   
   /* For small devices */
   @media screen and (max-width: 380px) {

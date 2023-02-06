@@ -15,16 +15,18 @@ import technologyHtml from '../../assets/html.png'
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
-    title: "Web phrase",
+    image: Work5,
+    title: "Computer wholesaler",
     technology: [
-      <img key={technologyReact} className='icon-react' src={technologyReact} alt="react.png" />,
-      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,
+      <img key={technologyReact} className='icon-react' src={technologyReact} alt="react.png" />, 
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />, 
+      <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
+      <img key={technologyRedux} className='icon-redux' src={technologyRedux} alt="redux.png" />, 
     ],
-    href: 'https://clinquant-babka-9da57d.netlify.app/',
-    github: 'https://github.com/AlexMunive/EntregableN01_Oficial',
-    category: "web",
-  },
+    href: 'https://cute-brioche-582631.netlify.app/',
+    github: 'https://github.com/AlexMunive/Proyecto_Final_React',
+    category: "e-commerce",
+  },  
   {
     id: 2,
     image: Work2,
@@ -66,18 +68,18 @@ export const projectsData = [
   },
   {
     id: 5,
-    image: Work5,
-    title: "Computer wholesaler",
-    technology: [
-      <img key={technologyReact} className='icon-react' src={technologyReact} alt="react.png" />, 
-      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />, 
+    image: Work7,
+    title: "Portfolio website",
+    technology: [     
+      <img key={technologyHtml} className='icon-html' src={technologyHtml} alt="html.png" />, 
       <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
-      <img key={technologyRedux} className='icon-redux' src={technologyRedux} alt="redux.png" />, 
+      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="Bootstrap.png" />,
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,       
     ],
-    href: 'https://cute-brioche-582631.netlify.app/',
-    github: 'https://github.com/AlexMunive/Proyecto_Final_React',
-    category: "e-commerce",
-  },
+    href: 'https://porafolio-web-alexander.netlify.app/',
+    github: 'https://github.com/AlexMunive/Portafolio-Alexander-Oficial',
+    category: "web",
+  }, 
   {
     id: 6,
     image: Work6,
@@ -94,18 +96,18 @@ export const projectsData = [
   },
   {
     id: 7,
-    image: Work7,
-    title: "Portfolio website",
-    technology: [     
-      <img key={technologyHtml} className='icon-html' src={technologyHtml} alt="html.png" />, 
-      <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
-      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="Bootstrap.png" />,
-      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,       
+    image: Work1,
+    title: "Web phrase",
+    technology: [
+      <img key={technologyReact} className='icon-react' src={technologyReact} alt="react.png" />,
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,
     ],
-    href: 'https://porafolio-web-alexander.netlify.app/',
-    github: 'https://github.com/AlexMunive/Portafolio-Alexander-Oficial',
+    href: 'https://clinquant-babka-9da57d.netlify.app/',
+    github: 'https://github.com/AlexMunive/EntregableN01_Oficial',
     category: "web",
   },
+
+
 ];
 
 export const projectsNav = [

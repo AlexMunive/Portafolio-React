@@ -30,7 +30,7 @@ const Services = () => {
                         <div className='services__modal-content'>
                             <i onClick={()=>toggleTab(0)} className='bx bxs-x-circle services__modal-close'></i>
                             <h3 className='services__modal-title'>Web Designer</h3>
-                            <p className='services__modal-description'>Service with more than 1 years of experience. Providing quality work to clients and companies.</p>
+                            <p className='services__modal-description'>Service with more than 1 year of project experience. Provide quality work with good practices.</p>
                             <ul className='services__modal-services grid'>
 
                                 <li className='services__modal-service'>
@@ -78,32 +78,32 @@ const Services = () => {
                         <div className='services__modal-content'>
                             <i onClick={()=>toggleTab(0)} className='bx bxs-x-circle services__modal-close'></i>
                             <h3 className='services__modal-title'>Full stack developer</h3>
-                            <p className='services__modal-description'>Service with more than 1 years of experience. Providing quality work to clients and companies.</p>
+                            <p className='services__modal-description'>Service with more than 1 year of project experience. Provide quality work with good practices.</p>
                             <ul className='services__modal-services grid'>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>I develop the user interface.</p>
+                                    <p className='services__modal-info'>Maintain and optimize websites.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>Web page development.</p>
+                                    <p className='services__modal-info'>Develop frontend and backend projects.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>I create ux element interactions.</p>
+                                    <p className='services__modal-info'>Ensure application functionality.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>I position your company brand.</p>
+                                    <p className='services__modal-info'>Develop interface website architecture.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>Design and mockups of products for companies.
+                                    <p className='services__modal-info'>Ensure the speed and stability of the website.
                                     </p>
                                 </li>
                             </ul>
@@ -117,7 +117,7 @@ const Services = () => {
                     <div>
                         <i className='bx bxs-palette services__icon'></i>
 
-                        <h3 className='services__title'>visual designer</h3>
+                        <h3 className='services__title'>Visual designer</h3>
                     </div>
                     <span className='services__button' onClick={()=>toggleTab(3)}>View More
                         <i className='bx bx-right-arrow-alt services__button-icon'></i>
@@ -126,33 +126,33 @@ const Services = () => {
                     <div className={toggleState===3 ? 'services__modal active-modal': 'services__modal'}>
                         <div className='services__modal-content'>
                             <i onClick={()=>toggleTab(0)} className='bx bxs-x-circle services__modal-close'></i>
-                            <h3 className='services__modal-title'>visual designer</h3>
-                            <p className='services__modal-description'>Service with more than 1 years of experience. Providing quality work to clients and companies.</p>
+                            <h3 className='services__modal-title'>Visual designer</h3>
+                            <p className='services__modal-description'>Service with more than 1 year of project experience. Provide quality work with good practices.</p>
                             <ul className='services__modal-services grid'>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>I develop the user interface.</p>
+                                    <p className='services__modal-info'>Architecture design in interaction and information.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>Web page development.</p>
+                                    <p className='services__modal-info'>Content structure, needs and functions.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>I create ux element interactions.</p>
+                                    <p className='services__modal-info'>Ability to communicate ideas visually.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>I position your company brand.</p>
+                                    <p className='services__modal-info'>Creative designs with customer needs.</p>
                                 </li>
 
                                 <li className='services__modal-service'>
                                     <i className='bx bx-check-circle services__modal-icon'></i>
-                                    <p className='services__modal-info'>Design and mockups of products for companies.
+                                    <p className='services__modal-info'>User needs, site goals.
                                     </p>
                                 </li>
                             </ul>

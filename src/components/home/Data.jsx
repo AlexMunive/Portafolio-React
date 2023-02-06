@@ -17,11 +17,10 @@ const Data = () => {
           autoStart: true,
           loop: true,
           delay: 'natural',
-          loop: true
         }}
           />
         </span></h4>
-        <a href="#contac" className='button button--flex'>Contact me<i className='bx bxs-navigation'></i></a>
+        <a href="#contact" className='button button--flex'>Contact me<i className='bx bxs-navigation'></i></a>
     </div>
   )
 }

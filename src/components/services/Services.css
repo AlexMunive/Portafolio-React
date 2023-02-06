@@ -97,6 +97,8 @@
 }
 .services__modal-info{
     font-size: var(--small-font-size);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /*  active modal */
