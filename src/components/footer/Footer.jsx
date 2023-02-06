@@ -10,7 +10,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/alexmunive_13/" className='footer__social-link' target='_blank'>
         <i className='bx bxl-instagram'></i>
         </a>
-        <a href="https://api.whatsapp.com/send?phone=936658544&text=Good how can I help you?" className='footer__social-link' target='_blank'>
+        <a href="https://api.whatsapp.com/send?phone=936658544&text=Que tal Alexander, tenga un cordial saludos 🖐." className='footer__social-link' target='_blank'>
         <i className='bx bxl-whatsapp'></i>
         </a>
         <a href="https://www.linkedin.com/in/alexander-munive/" className='footer__social-link' target='_blank'>
