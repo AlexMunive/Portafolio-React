@@ -10,6 +10,7 @@ import postgres from '../../assets/postgres.png'
 import git from '../../assets/git.png'
 import jQuery from '../../assets/jQuery.png'
 import Bootstrap from '../../assets/Bootstrap.webp'
+import vite from '../../assets/vite.png'
 
 const Skill_software = () => {
     
@@ -46,6 +47,10 @@ const Skill_software = () => {
                 <div className='carousel__img-bootstrap' key={10}>
                     <img className='carousel__img-bootstrap' alt="" src={Bootstrap} />
                 </div>
+                <div className='carousel__img-vite' key={11}>
+                    <img className='carousel__img-vite' alt="" src={vite} />
+                </div>
+
             </Carousel>
         </div>
     )
