@@ -5,6 +5,7 @@ import Work4 from '../../assets/work4.png'
 import Work5 from '../../assets/work5.png'
 import Work6 from '../../assets/work6.png'
 import Work7 from '../../assets/work7.png'
+import Work8 from '../../assets/work8.png'
 import technologyReact from '../../assets/react.png'
 import technologyCss from '../../assets/css.png'
 import technologyJs from '../../assets/js.png'
@@ -54,6 +55,18 @@ export const projectsData = [
   },
   {
     id: 4,
+    image: Work8,
+    title: "CRUD User",
+    technology: [
+      <img key={technologyReact} className='icon-react' src={technologyReact} alt="react.png" />,
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,
+    ],
+    href: 'https://charming-florentine-28c008.netlify.app/',
+    github: 'https://github.com/AlexMunive/EntregableN4_Oficial',
+    category: "web",
+  },
+  {
+    id: 5,
     image: Work4,
     title: "Pokedex",
     technology: [
@@ -67,7 +80,7 @@ export const projectsData = [
     category: "app",
   },
   {
-    id: 5,
+    id: 6,
     image: Work7,
     title: "Portfolio website",
     technology: [     
@@ -81,7 +94,7 @@ export const projectsData = [
     category: "web",
   }, 
   {
-    id: 6,
+    id: 7,
     image: Work6,
     title: "Online store computer",
     technology: [     
@@ -95,7 +108,7 @@ export const projectsData = [
     category: "e-commerce",
   },
   {
-    id: 7,
+    id: 8,
     image: Work1,
     title: "Web phrase",
     technology: [
@@ -106,7 +119,6 @@ export const projectsData = [
     github: 'https://github.com/AlexMunive/EntregableN01_Oficial',
     category: "web",
   },
-
 
 ];
 
