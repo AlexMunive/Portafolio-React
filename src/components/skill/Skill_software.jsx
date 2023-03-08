@@ -58,7 +58,6 @@ const Skill_software = () => {
                 <div className='carousel__img-csharp' key={13}>
                     <img className='carousel__img-csharp' alt="" src={csharp} />
                 </div>
-
             </Carousel>
         </div>
     )
