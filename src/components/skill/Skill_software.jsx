@@ -11,12 +11,14 @@ import git from '../../assets/git.png'
 import jQuery from '../../assets/jQuery.png'
 import Bootstrap from '../../assets/Bootstrap.webp'
 import vite from '../../assets/vite.png'
+import net from '../../assets/net.png'
+import csharp from '../../assets/csharp.png'
 
 const Skill_software = () => {
     
     return (
         <div className='carousel_container container grid'>
-            <Carousel   yOrigin={42}  yRadius={48} autoPlay={true}>
+            <Carousel   yOrigin={48}  yRadius={130} autoPlay={true}>
                 <div className='carousel__img-html' key={1} >
                     <img className='carousel__img-html' alt="" src={html} />
                 </div>
@@ -49,6 +51,12 @@ const Skill_software = () => {
                 </div>
                 <div className='carousel__img-vite' key={11}>
                     <img className='carousel__img-vite' alt="" src={vite} />
+                </div>
+                <div className='carousel__img-net' key={12}>
+                    <img className='carousel__img-net' alt="" src={net} />
+                </div>
+                <div className='carousel__img-csharp' key={13}>
+                    <img className='carousel__img-csharp' alt="" src={csharp} />
                 </div>
 
             </Carousel>

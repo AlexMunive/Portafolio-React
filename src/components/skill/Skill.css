@@ -43,6 +43,15 @@
     width: auto;
     height: 110px;
 }
+.carousel__img-net{
+    width: auto;
+    height: 90px;
+}
+.carousel__img-csharp{
+    width: auto;
+    height: 100px;
+}
+
 
 
 .carousel_container{
@@ -121,6 +130,14 @@
         width: auto;
         height: 70px;
     }
+    .carousel__img-net{
+        width: auto;
+        height: 50px;
+    }
+    .carousel__img-csharp{
+        width: auto;
+        height: 60px;
+    }
 
   }
   @media screen and (max-width: 580px){
@@ -184,6 +201,14 @@
     .carousel__img-vite{
         width: auto;
         height: 60px;
+    }
+    .carousel__img-net{
+        width: auto;
+        height: 40px;
+    }
+    .carousel__img-csharp{
+        width: auto;
+        height: 50px;
     }
   }
   

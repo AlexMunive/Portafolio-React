@@ -9,11 +9,11 @@ const Data = () => {
     <div className="home__data">
         <h1 className="home__title">Hello, my name is Alexander Munive</h1>
         <h3 className='home__subtitle'>Software Developer</h3>
-        <h4 className='home__description'>I am a Full-Stack Web programmer with experience in: 
+        <h4 className='home__description'>I am a full stack web developer and application developer for Android and iOS, with experience in: 
         <span className='home__specialty home__maquina-escribir'>
         <TypeWriterEffect
         options={{
-          strings: ['React.js', 'Node.js'],
+          strings: ['React.js', 'Node.js', 'React.native','.Net Core', 'C#'],
           autoStart: true,
           loop: true,
           delay: 'natural',
