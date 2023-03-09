@@ -51,7 +51,10 @@
     width: auto;
     height: 100px;
 }
-
+.carousel__img-sqlServer{
+    width: auto;
+    height: 90px;
+}
 
 
 .carousel_container{
@@ -138,6 +141,10 @@
         width: auto;
         height: 60px;
     }
+    .carousel__img-sqlServer{
+        width: auto;
+        height: 50px;
+    }
 
   }
   @media screen and (max-width: 580px){
@@ -209,6 +216,10 @@
     .carousel__img-csharp{
         width: auto;
         height: 50px;
+    }
+    .carousel__img-sqlServer{
+        width: auto;
+        height: 40px;
     }
   }
   

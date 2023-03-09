@@ -13,6 +13,7 @@ import Bootstrap from '../../assets/Bootstrap.webp'
 import vite from '../../assets/vite.png'
 import net from '../../assets/net.png'
 import csharp from '../../assets/csharp.png'
+import sqlServer from '../../assets/sql_server.png'
 
 const Skill_software = () => {
     
@@ -57,6 +58,9 @@ const Skill_software = () => {
                 </div>
                 <div className='carousel__img-csharp' key={13}>
                     <img className='carousel__img-csharp' alt="" src={csharp} />
+                </div>
+                <div className='carousel__img-sqlServer' key={14}>
+                    <img className='carousel__img-sqlServer' alt="" src={sqlServer} />
                 </div>
             </Carousel>
         </div>
