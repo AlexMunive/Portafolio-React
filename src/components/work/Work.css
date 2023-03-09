@@ -159,7 +159,20 @@
 
 
   /* icons */
-
+.icon-csharp{
+  width: 40px;
+  height: auto;
+  margin-top: 5px;    
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+ .icon-net{
+  width: 30px;
+  height: auto;
+  margin-top: 5px;    
+  margin-right: 5px;
+  margin-bottom: 5px;
+ }
   .icon-react{
     width: 30px;
     height: auto;
@@ -221,6 +234,14 @@
     transform: translateX( 0.25rem)
   }
   .icon-html:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
+  }
+  .icon-net:hover{
+    transition: 0.4s;
+    transform: translateX( 0.25rem)
+  }
+  .icon-csharp:hover{
     transition: 0.4s;
     transform: translateX( 0.25rem)
   }

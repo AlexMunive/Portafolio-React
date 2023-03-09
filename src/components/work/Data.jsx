@@ -6,12 +6,15 @@ import Work5 from '../../assets/work5.png'
 import Work6 from '../../assets/work6.png'
 import Work7 from '../../assets/work7.png'
 import Work8 from '../../assets/work8.png'
+import Work9 from '../../assets/work9.png'
 import technologyReact from '../../assets/react.png'
 import technologyCss from '../../assets/css.png'
 import technologyJs from '../../assets/js.png'
 import technologyRedux from '../../assets/redux.png'
 import technologyBootstrap from '../../assets/Bootstrap.webp'
 import technologyHtml from '../../assets/html.png'
+import technologyNet from '../../assets/net.png'
+import technologyCSharp from '../../assets/csharp.png'
 
 export const projectsData = [
   {
@@ -117,6 +120,18 @@ export const projectsData = [
     ],
     href: 'https://clinquant-babka-9da57d.netlify.app/',
     github: 'https://github.com/AlexMunive/EntregableN01_Oficial',
+    category: "web",
+  },
+  {
+    id: 9,
+    image: Work9,
+    title: "Loans",
+    technology: [
+      <img key={technologyNet} className='icon-net' src={technologyNet} alt="net.png" />,
+      <img key={technologyCSharp} className='icon-csharp' src={technologyCSharp} alt="csharp.png" />,
+    ],
+    href: 'https://www.youtube.com/watch?v=wuv9-CK-UIo',
+    github: 'https://github.com/AlexMunive/BancoPrestamo',
     category: "web",
   },
 
