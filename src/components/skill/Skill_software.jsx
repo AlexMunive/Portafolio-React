@@ -14,6 +14,10 @@ import vite from '../../assets/vite.png'
 import net from '../../assets/net.png'
 import csharp from '../../assets/csharp.png'
 import sqlServer from '../../assets/sql_server.png'
+import typescript from '../../assets/typescript.png'
+import firebase from '../../assets/firebase.png'
+import gitHub from '../../assets/GitHub.png'
+import tailwind from '../../assets/tailwind.png'
 
 const Skill_software = () => {
     
@@ -61,6 +65,18 @@ const Skill_software = () => {
                 </div>
                 <div className='carousel__img-sqlServer' key={14}>
                     <img className='carousel__img-sqlServer' alt="" src={sqlServer} />
+                </div>
+                <div className='carousel__img-typescript' key={15}>
+                    <img className='carousel__img-typescript' alt="" src={typescript} />
+                </div>
+                <div className='carousel__img-firebase' key={16}>
+                    <img className='carousel__img-firebase' alt="" src={firebase} />
+                </div>
+                <div className='carousel__img-gitHub' key={17}>
+                    <img className='carousel__img-gitHub' alt="" src={gitHub} />
+                </div>
+                  <div className='carousel__img-tailwind' key={18}>
+                    <img className='carousel__img-tailwind' alt="" src={tailwind} />
                 </div>
             </Carousel>
         </div>

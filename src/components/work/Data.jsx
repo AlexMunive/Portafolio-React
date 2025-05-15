@@ -7,6 +7,9 @@ import Work6 from '../../assets/work6.png'
 import Work7 from '../../assets/work7.png'
 import Work8 from '../../assets/work8.png'
 import Work9 from '../../assets/work9.png'
+import Work10 from '../../assets/work10.png'
+import Work11 from '../../assets/work11.png'
+import Work12 from '../../assets/work12.png'
 import technologyReact from '../../assets/react.png'
 import technologyCss from '../../assets/css.png'
 import technologyJs from '../../assets/js.png'
@@ -15,6 +18,7 @@ import technologyBootstrap from '../../assets/Bootstrap.webp'
 import technologyHtml from '../../assets/html.png'
 import technologyNet from '../../assets/net.png'
 import technologyCSharp from '../../assets/csharp.png'
+import technologyFirebase from '../../assets/firebase.png'
 
 export const projectsData = [
   {
@@ -133,6 +137,64 @@ export const projectsData = [
     href: 'https://www.youtube.com/watch?v=wuv9-CK-UIo',
     github: 'https://github.com/AlexMunive/BancoPrestamo',
     category: "web",
+  },
+  {
+    id: 10,
+    image: Work10,
+    title: "psychology",
+    technology: [
+      <img key={technologyReact}  className='icon-react' src={technologyReact} alt="react.png" />, 
+      <img key={technologyHtml} className='icon-html' src={technologyHtml} alt="html.png" />, 
+      <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
+      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="Bootstrap.png" />,
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,     
+    ],
+    href: 'https://psicologia-ivett.netlify.app/',
+    github: 'https://github.com/AlexMunive/Proyecto-Psicologia',
+    category: "web",
+  },
+  {
+    id: 11,
+    image: Work11,
+    title: "Elite Shoppy",
+    technology: [
+      <img key={technologyReact}  className='icon-react' src={technologyReact} alt="react.png" />, 
+      <img key={technologyHtml} className='icon-html' src={technologyHtml} alt="html.png" />, 
+      <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
+      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="Bootstrap.png" />,
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,     
+      <img key={technologyFirebase} className='icon-firebase' src={technologyFirebase} alt="css.png" />,     
+    ],
+    href: 'https://proyecto-elite-shoppy.netlify.app/',
+    github: 'https://github.com/AlexMunive/Elite_shoppy',
+    category: "e-commerce",
+  },
+  {
+    id: 12,
+    image: Work11,
+    title: "Elite Shoppy",
+    technology: [
+      <img key={technologyReact}  className='icon-react' src={technologyReact} alt="react.png" />, 
+      <img key={technologyHtml} className='icon-html' src={technologyHtml} alt="html.png" />, 
+      <img key={technologyJs} className='icon-js' src={technologyJs} alt="js.png" />, 
+      <img key={technologyBootstrap} className='icon-bootstrap' src={technologyBootstrap} alt="Bootstrap.png" />,
+      <img key={technologyCss} className='icon-css' src={technologyCss} alt="css.png" />,     
+      <img key={technologyFirebase} className='icon-firebase' src={technologyFirebase} alt="css.png" />,     
+    ],
+    href: 'https://proyecto-elite-shoppy.netlify.app/',
+    github: 'https://github.com/AlexMunive/Elite_shoppy',
+    category: "e-commerce",
+  },
+    {
+    id: 13,
+    image: Work12,
+    title: "Tasks",
+    technology: [
+      <img key={technologyReact}  className='icon-react' src={technologyReact} alt="react.png" />,     
+    ],
+    href: 'https://frolicking-lollipop-ad57ed.netlify.app/',
+    github: 'https://github.com/AlexMunive/TODO-APP',
+    category: "app",
   },
 
 ];

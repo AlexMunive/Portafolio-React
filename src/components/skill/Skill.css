@@ -55,6 +55,22 @@
     width: auto;
     height: 90px;
 }
+.carousel__img-typescript{
+    width: auto;
+    height: 70px;
+}
+.carousel__img-firebase{
+    width: auto;
+    height: 120px;
+}
+.carousel__img-gitHub{
+    width: auto;
+    height: 80px;
+}
+.carousel__img-tailwind{
+    width: auto;
+    height: 70px;
+}
 
 
 .carousel_container{
